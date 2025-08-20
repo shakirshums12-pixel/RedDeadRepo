@@ -2,12 +2,12 @@
 
 const CACHE_NAME = "RDR-v1";
 const urlsToCache = [
-  "/",
+  "./",
   "./index.html",
-  "./styles/style.css",
-  "./scripts.js",
-  "/favicons/android-icon-192x192.png",
-  '/favicons/manifest.json'
+  "./Styles/style.css",
+  "./Scripts/scripts.js",
+  "./favicons/android-icon-192x192.png",
+  './favicons/manifest.json'
 ];
 
 // Install Service Worker and cache files
